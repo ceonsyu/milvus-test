@@ -1,0 +1,4 @@
+from config import MILVUS_HOST, MILVUS_PORT, MILVUS_COLLECTION_NAME
+from helper import connect
+
+connect(MILVUS_HOST, MILVUS_PORT, MILVUS_COLLECTION_NAME)
